@@ -19,14 +19,14 @@ box<-ggplot(df,aes(x= SPHERE,y=CONTAMINATION,fill=SPHERE))+
     plot.title = element_text(size=20)
   ) +
   ggtitle("") +
-  ylab("Contamination")+
+  ylab("Completeness")+
   xlab("")+
   theme(axis.text.x = element_text(size = 12),
         axis.text.y = element_text(size = 12),
         axis.title.y = element_text(size = 12))
 box
 ggsave(
-  "boxplot_genome_contamination.tiff",
+  "boxplot_genome_completeness.tiff",
   plot = last_plot(),
   device = NULL,
   path = NULL,

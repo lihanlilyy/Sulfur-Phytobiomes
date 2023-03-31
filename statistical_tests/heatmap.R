@@ -24,10 +24,14 @@ df <- df[,-1]
 df<-as.matrix(df)
 # heatmap.2(df, scale = "none", col = bluered(100), 
 #           trace = "none", density.info = "none")
-mycols <- colorRamp2(breaks = c(-2, 0, 6), 
+mycols <- colorRamp2(breaks = c(-2, 0, 2), 
                      colors = c("blue", "white", "red"))
 
-tiff(file="phyllo_heatmap.tiff")
+tiff(file="phyllo_heatmap.tiff",
+     units="in", 
+     width=5, 
+     height=5, 
+     res=300)
 Heatmap(df, 
         name = "Estimate", #title of legend
         column_title = "Orders", row_title = "Genes",
