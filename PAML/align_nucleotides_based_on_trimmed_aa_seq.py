@@ -1,4 +1,4 @@
-// this script is used to perform alignment on nucleotides seqs based on aligned aa seqs.
+# this script is used to perform alignment on nucleotides seqs based on aligned aa seqs.
 import os
 from Bio import SeqIO
 from Bio.Seq import Seq
