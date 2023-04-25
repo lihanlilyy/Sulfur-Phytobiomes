@@ -1,4 +1,4 @@
-// this script is used to remove stop codons in the sequences
+# this script is used to remove stop codons in the sequences
 from Bio import SeqIO
 from Bio.Seq import Seq
 import sys
