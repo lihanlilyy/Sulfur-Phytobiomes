@@ -1,5 +1,5 @@
-// this script is used to remove the extra seqs that do not correspond to the target gene.
-// the target gene names are given in the keywords list below.
+# this script is used to remove the extra seqs that do not correspond to the target gene.
+# the target gene names are given in the keywords list below.
 import os
 import re
 from Bio import SeqIO
