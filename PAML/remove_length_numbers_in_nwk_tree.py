@@ -1,5 +1,5 @@
-// as CODEML needs a phylogenetic tree as input, and it does not take in newick trees that have length values,
-// this script is used to remove length numbers in the .nwk tree files.
+# as CODEML needs a phylogenetic tree as input, and it does not take in newick trees that have length values,
+# this script is used to remove length numbers in the .nwk tree files.
 import os
 import re
 from pathlib import Path
