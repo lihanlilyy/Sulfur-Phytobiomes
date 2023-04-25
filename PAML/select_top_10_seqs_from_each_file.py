@@ -1,5 +1,5 @@
-// to simplify the process and obtain some primary results from the selection pressure analysis
-// this script is used to select the first 10 seqs from each gene's homolog and paralog file
+# to simplify the process and obtain some primary results from the selection pressure analysis
+# this script is used to select the first 10 seqs from each gene's homolog and paralog file
 
 import os
 from Bio import SeqIO
